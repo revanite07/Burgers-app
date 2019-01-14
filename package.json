@@ -1,0 +1,26 @@
+{
+  "name": "burgers-app",
+  "version": "1.0.0",
+  "description": "Burger app ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revanite07/Burgers-app.git"
+  },
+  "author": "Kelan Moffatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revanite07/Burgers-app/issues"
+  },
+  "homepage": "https://github.com/revanite07/Burgers-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "orm": "^5.0.2"
+  }
+}
